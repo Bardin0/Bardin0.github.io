@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav-bar">
+        <nav>
+            <ul class="nav-links">
+                <li class="link"><a href="#tech">Tech</a></li>
+                <li class="link"><a href="#projects">Projects</a></li>
+                <li class="link"><a href="#contact-me">Contact Me</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="title-card">
+        <div class="text-wrapper">
+            <img src="images/pfp.jpeg" class="profile-pic">
+            <h1>Michael Giovannini</h1>
+            <h3>Software Developer</h3>
+            <p>Guelph, Ontario</p>
+            <div class="personal-links">
+                <ul class="personal-links-imgs">
+                    <li><a href="https://github.com/Bardin0" target="_blank"><img src="images/github.png"></a></li>
+                    <li><a href="https://www.linkedin.com/in/michael-giovannini/" target="_blank"><img src="images/linkedin.png" ></a></li>
+                    <li>
+                        <a href="images/ResumeMG.pdf" target="_blank" class="resume-download">
+                            <img src="images/download.png" id="download">
+                            <span>Resume</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="main">
+        <h1>About Me</h1>
+        <p>Hi! I'm Michael, a software developer currently studying Computer Science at the University of Guelph.
+        My interests lie in full stack development and cyber security. I love working on projects that challenge me to learn and grow, whether it's building full stack web apps or silly games.
+        </p>
+        <hr>
+        <h1 id="tech">Technologies and Development Tools</h1>
+        <div class="card-wrapper">
+            <div class="language-card">
+                <img src="images/c.svg" class="language-logo">
+                <span class="language-name">C</span>
+            </div>
+            <div class="language-card">
+                <img src="images/java.svg" class="language-logo">
+                <span class="language-name">Java</span>
+            </div>
+            <div class="language-card">
+                <img src="images/python.svg" class="language-logo">
+                <span class="language-name">Python</span>
+            </div>
+            <div class="language-card">
+                <img src="images/javascript.svg" class="language-logo">
+                <span class="language-name">JavaScript</span>
+            </div>
+            <div class="language-card">
+                <img src="images/html5.svg" class="language-logo">
+                <span class="language-name">HTML</span>
+            </div>
+            <div class="language-card">
+                <img src="images/css.png" class="language-logo">
+                <span class="language-name">CSS</span>
+            </div>
+            <div class="language-card">
+                <img src="images/git.svg" class="language-logo">
+                <span class="language-name">Git</span>
+            </div>
+            <div class="language-card">
+                <img src="images/github.png" class="language-logo" id="github-img">
+                <span class="language-name">Github</span>
+            </div>
+            <div class="language-card">
+                <img src="images/gitlab.svg" class="language-logo">
+                <span class="language-name">GitLab</span>
+            </div>
+            <div class="language-card">
+                <img src="images/springboot.png" class="language-logo">
+                <span class="language-name">Springboot</span>
+            </div>
+            <div class="language-card">
+                <img src="images/mysql.svg" class="language-logo">
+                <span class="language-name">MySQL</span>
+            </div>
+            <div class="language-card">
+                <img src="images/maven-svgrepo-com.svg" class="language-logo">
+                <span class="language-name">Maven</span>
+            </div>
+            <div class="language-card">
+                <img src="images/windows.webp" class="language-logo">
+                <span class="language-name">Windows</span>
+            </div>
+            <div class="language-card">
+                <img src="images/macos.png" class="language-logo">
+                <span class="language-name">MacOS</span>
+            </div>
+            <div class="language-card">
+                <img src="images/linux.svg" class="language-logo">
+                <span class="language-name">Linux</span>
+            </div>
+        </div>
+        <hr>
+
+        
+        <h1 id="projects">Projects</h1>
+        <p style="padding: 8px;">Here are some projects I've created, there's more to see on my GitHub!</p>
+        <div class="project-card">
+            <a href="https://github.com/Bardin0/Tomb-of-The-Ancient-Kings" class="project-title">Tomb Of The Ancienct Kings</a>
+            <hr class="project-line">
+            <div class="list-wrapper">
+                <img src="images/Ancient-Kings.png" class="project-image">
+                <ul>
+                    <li>Turn-based rogue-lite game in Python with procedural dungeon generation</li>
+                    <li>Optimized procedural map generation and pathfinding calculations using NumPy for efficient operations and
+                        performance improvements.</li>
+                    <li>Utilized object-oriented programming design patterns to maintain a scalable codebase</li>
+                </ul>
+            </div>
+        </div>
+        <div class="project-card">
+            <a href="https://github.com/Bardin0/Scriptor" class="project-title">Scriptor Text Editor</a>
+            <hr class="project-line">
+            <div class="list-wrapper">
+                <img src="images/scriptor.png" class="project-image">
+                <ul>
+                    <li>Developed a lightweight text editor in C for terminal-based usage, supporting basic editing functions</li>
+                    <li>Created robust input handling system to support keyboard shortcuts for efficient navigation.</li>
+                    <li>Integrated file IO operations, supporting opening and saving files, with safe file saving and overwrite
+                        protection, reducing the risk of accidental data loss</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        
+        <h1 id="contact-me">Contact Me</h1>
+        <p style="padding: 8px;">Looking to get in touch? Feel free to send me a message here.</p>
+        <form id="emailForm" action="https://api.web3forms.com/submit" class="form" method="POST">
+
+            <input type="hidden" name="access_key" value="4eb02994-5f33-42a1-88a1-d62e6379e824">
+
+            <input type="email" id="email" name="email" class="input-box" placeholder="Enter your email" required>
+            <textarea id="message" name="message" class="input-box textarea-box" placeholder="Type your message" required></textarea>
+            <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+          
+            <button type="submit" id="submit-btn" class="submit-btn">Send</button>
+        </form>
+    </div>
+
+    <div id="overlay" class="overlay">
+        <button class="close-btn">X</button>
+        <img src="" alt="Full-Screen Image" class="full-screen-image">
+      </div>
+
+      <div id="popup" class="popup">
+            <p>Please wait before sending another message.</p>
+    </div>
+
+    <footer>
+    </footer>
+    
+    <script src="script.js" defer></script>
+</body>
+</html>
