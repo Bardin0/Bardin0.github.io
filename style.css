@@ -159,7 +159,7 @@ footer{
 .list-wrapper{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .project-card ul{
